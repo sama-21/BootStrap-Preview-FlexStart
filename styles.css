@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+}
+#navbarlinks:hover {
+    transition: .3s all;
+    outline: dotted 2px dodgerblue;
+    text-decoration: underline;
+}
+#navbarlinks {
+    font-size: 18px;
+    padding: 5px 4px;
+}
+#left-home {
+    background: url(/BOOTSTRAP/FlexStart/svg/graph.png);
+    background-size: cover;
+}
+#values img:hover {
+    transform-origin: center;
+    transform: scale(.8);
+    transition: 1s ease;
+}
+#values div:hover {
+    transition: .4s all;
+    box-shadow:
+  6.2px 6.2px 47.2px rgba(0, 0, 0, 0.014),
+  12.9px 12.9px 45.1px rgba(0, 0, 0, 0.02),
+  21.3px 21.3px 44.1px rgba(0, 0, 0, 0.029),
+  36.1px 36.1px 52.3px rgba(0, 0, 0, 0.046),
+  100px 100px 80px rgba(0, 0, 0, 0.004)
+;
+}
+#services div {
+    border-radius: 10px;
+}
+#services #services-one:hover {
+    transition: .3s all;
+    background-color: #ff82ac;
+}
+#services #services-two:hover {
+    transition: .3s all;
+    background-color: #82c7ff;
+}
+#services #services-three:hover {
+    transition: .3s all;
+    background-color: #ff9b82;
+}
+#services #services-four:hover {
+    transition: .3s all;
+    background-color: #c382ff;
+}
+#services #services-five:hover {
+    transition: .3s all;
+    background-color: #82ffc5;
+}
+#services #services-six:hover {
+    transition: .3s all;
+    background-color: #ecff82;
+}
+#pricing #free:hover {
+    transition: .3s all;
+    background-color: #fdaae2;
+}
+#pricing #starter:hover {
+    transition: .3s all;
+    background-color: #aadcfd;
+}
+#pricing #business:hover {
+    transition: .3s all;
+    background-color: #bbfdaa;
+}
+#pricing #ultimate:hover {
+    transition: .3s all;
+    background-color: #d1aafd;
+}
+#card-overlay {
+opacity: 0;
+}
+#card-overlay:hover {
+opacity: 1;
+    transition: .5s all;
+}
+#team-1:hover {
+    transform-origin: left;
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+#team-2:hover {
+    transform-origin: top;
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+#team-3:hover {
+    transform-origin: bottom;
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+#team-4:hover {
+    transform-origin: right;
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+body:hover {
+    cursor: crosshair;
+}
